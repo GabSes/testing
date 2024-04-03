@@ -1,0 +1,7 @@
+{
+    "ssid": "YourSSID",
+    "password": "YourPassword",
+    "security_mode": "WPA2",
+    "channel": "auto",
+    "broadcast_ssid": true
+}

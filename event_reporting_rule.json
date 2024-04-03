@@ -1,0 +1,6 @@
+{
+    "event": "wifi_config_change",
+    "action": "send_sms",
+    "recipient": "+37068626832",
+    "message": "WiFi configuration has changed."
+}

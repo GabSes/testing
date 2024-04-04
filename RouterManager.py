@@ -4,7 +4,6 @@ import paramiko
 host = "192.168.1.1"
 username = "root"
 password = "Admin123"
-
 # Define the commands for modifying the wireless access point
 commands = [
     'ubus call uci get \'{"config":"wireless","section":"default_radio0","option":"ssid","ubus_rpc_session":"2a199235cbf7d4f52ed0c0413e2b168a"}\'',

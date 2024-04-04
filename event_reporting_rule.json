@@ -1,6 +1,13 @@
 {
-    "event": "wifi_config_change",
-    "action": "send_sms",
-    "recipient": "+37068626832",
-    "message": "WiFi configuration has changed."
+    "data": {
+    ".type": "rule",
+    "action": "sendSMS",
+    "enable": "0",
+    "telnum": "+37068626832",
+    "event": "Config",
+    "message": "WiFi configuration has changed.",
+    "recipient_format": "single",
+    "eventMark": "all",
+    "id": "testing"
+            }
 }

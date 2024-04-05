@@ -2,12 +2,12 @@
     "data": {
     ".type": "rule",
     "action": "sendSMS",
-    "enable": "0",
+    "enable": "1",
     "telnum": "+37068626832",
     "event": "Config",
     "message": "WiFi configuration has changed.",
     "recipient_format": "single",
-    "eventMark": "all",
+    "eventMark": "wireless",
     "id": "testing"
             }
 }

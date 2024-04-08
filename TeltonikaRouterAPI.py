@@ -39,7 +39,7 @@ class TeltonikaRouterAPI:
                     self.bearer_token = token_data.get('token')
                     if self.bearer_token:
                         print("Authentication successful. Bearer token:", self.bearer_token)
-                        return  # Exit method after successful authentication
+                        return 
                 print("Error: Bearer token not found in authentication response.", file=sys.stderr)
             else:
                 print("Error: Authentication unsuccessful.", file=sys.stderr)
